@@ -1,0 +1,28 @@
+﻿Build started 2015-04-13 16:41:35.
+     1>Project "c:\Users\Tetok\documents\visual studio 2013\Projects\linkedlist\linkedlist\linkedlist.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\tetok\documents\visual studio 2013\projects\linkedlist\linkedlist\source.cpp(70): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'node<T> *' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\tetok\documents\visual studio 2013\projects\linkedlist\linkedlist\source.cpp(11): could be 'node<T> &node<T>::operator =(const node<T> &)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '(node<T>, node<T> *)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\tetok\documents\visual studio 2013\projects\linkedlist\linkedlist\source.cpp(56) : while compiling class template member function 'void list<int>::createlist(void)'
+                 c:\users\tetok\documents\visual studio 2013\projects\linkedlist\linkedlist\source.cpp(186) : see reference to function template instantiation 'void list<int>::createlist(void)' being compiled
+                 c:\users\tetok\documents\visual studio 2013\projects\linkedlist\linkedlist\source.cpp(185) : see reference to class template instantiation 'list<int>' being compiled
+     1>Done Building Project "c:\Users\Tetok\documents\visual studio 2013\Projects\linkedlist\linkedlist\linkedlist.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81
